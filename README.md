@@ -11,7 +11,9 @@ Deployment
 ----------------------
 Execute deploy.sh script to begin deployment:
 (some operations require superuser access rights)
-* ./deploy.sh
+
+./deploy.sh
+
 The script will install necessary packages and deploy/configure Jenkins.
 You will be able to access it at http://server_ip:8080
 The following steps are required after deployment:
@@ -34,4 +36,5 @@ Jenkins Jobs
 Jenkins Job Builder is used to configure Jenkins jobs. It will be automatically
 installed by deployment scripts. Jobs configuration files will be placed to
 /etc/jenkins_jobs/jobs. You can use the following command to apply your changes
-* jenkins-jobs update /etc/jenkins_jobs/jobs
+
+jenkins-jobs update /etc/jenkins_jobs/jobs
