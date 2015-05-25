@@ -3,7 +3,6 @@
 import re
 import yaml
 from sys import argv
-from deepdiff import DeepDiff
 
 
 def yaml_to_dict(infile, k):

@@ -30,6 +30,10 @@ The following steps are required after deployment:
   in 'Status' column. If button will change its color to green, your connection
   to Gerrit works OK and Jenkins is receiving Gerrit events. Otherwise please
   check Gerrit server parameters.
+- rclone (http://rclone.org/) is used to upload images to CDN.
+  Please install and configure it manually, if it's required.
+  'jenkins' user should be able to access default rclone configuration file
+  in order to use it.
 
 Jenkins Jobs
 ----------------------
